@@ -46,3 +46,5 @@ ALTER TABLE tbtfuncionario RENAME TO tbfuncionario;
 ALTER TABLE tbfuncionario RENAME COLUMN guerra TO area;
 ALTER TABLE tbfuncionario RENAME COLUMN turno TO Turno;
 ALTER TABLE tbfuncionario RENAME COLUMN funcao TO Funcao;
+ALTER TABLE pessoa RENAME COLUMN data_nasc TO datanascimento;
+ALTER TABLE pessoa DROP COLUMN morada;
